@@ -27,3 +27,10 @@ const restaurant = {
 const fullAddress = `${restaurant.address} in ${restaurant.city}, ${restaurant.state} ${restaurant.zipcode}`
 
 console.log(fullAddress)
+
+//modifying object
+
+const midTerms = {danielle: 96, thomas: 78}
+console.log(midTerms)
+midTerms.thomas = 79
+console.log(midTerms)
