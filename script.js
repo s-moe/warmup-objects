@@ -34,3 +34,7 @@ const midTerms = {danielle: 96, thomas: 78}
 console.log(midTerms)
 midTerms.thomas = 79
 console.log(midTerms)
+midTerms['danielle'] = 'A'
+midTerms.ezra = 'B+'
+console.log(midTerms)
+console.log(midTerms['danielle'][0])
