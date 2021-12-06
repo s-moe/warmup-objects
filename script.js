@@ -38,3 +38,19 @@ midTerms['danielle'] = 'A'
 midTerms.ezra = 'B+'
 console.log(midTerms)
 console.log(midTerms['danielle'][0])
+
+const comments = [
+  { username: 'Tammy', 
+  text: 'lolol',
+  votes: 9
+
+  },
+  {
+    username: 'Joe',
+    text: 'joking',
+    votes: 3
+
+  }
+]
+console.log(comments[1].text)
+console.log(comments[0]['text'])
