@@ -54,3 +54,10 @@ const comments = [
 ]
 console.log(comments[1].text)
 console.log(comments[0]['text'])
+
+const users = {
+  "men": [{name: 'john', age: 36}, {name: 'frank', age: 32}],
+  "women": [{name: 'joann', age: 36}, {name: 'francis', age: 32}],
+  "non-binary": [{name: 'jo', age: 36}, {name: 'frankie', age: 32}]
+}
+console.log(users.men[1].name)
